@@ -1,8 +1,12 @@
-import pandas as pd
-import numpy as np
-coloumn_names=['user id','movieId','rating','time']
-d1=pd.read_csv(r"D:\ml-25m\ml-25m\rating 1.csv")
-d1.head(50)
+x,y=input("enter 2 variables").split()
+
+def hey(x,y):
+	if(x<y):
+		print(x)
+	else:
+		print(y)
+
+hey(x,y)
 
 
 
